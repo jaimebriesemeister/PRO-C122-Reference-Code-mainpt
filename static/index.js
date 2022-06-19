@@ -26,7 +26,7 @@ $(function () {
                 predicted_emotion = result.data.predicted_emotion
                 emotion_img_url=result.data.predicted_emotion_img_url
                 
-                //Envie a emoção prevista e o URL da imagem para o HTML
+                //Envie a emoção prevista e a URL da imagem para o HTML
                 $("#prediction").html(predicted_emotion)
                 $("#emo_img_url").attr('src', emotion_img_url);
 
